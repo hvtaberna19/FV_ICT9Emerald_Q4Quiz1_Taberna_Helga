@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+	<title>Log In</title>
+</head>
+	<style>
+		body{
+			background-color: lightblue;
+			color: white;
+			font-family: Oswald;
+		}
+		#dp{
+			width: 150px;
+		}
+		#box{
+			background-color: rgb(138, 178, 191);
+		}
+		p{
+			font-size: 20px;
+		}
+	</style>
+
+<body>
+<center>
+
+	<br><br><br><br>
+
+	<p>Online Portfolio</p>
+
+	<!-- Log In -->
+	<h1>Good to see you again!</h1><br><br>
+	<div id="login-container" class="rounded">
+		<div class="col-md-3" id="box">
+			<br><br><br>
+			<img id="dp" src="file:///C:/Users/admin/Downloads/441180021_417639551219552_3529837115976996268_n.png" class="rounded-circle">
+			<br><br>
+
+			<form action="main.html" class="form-group">
+				<label id="login"></label>
+				<input type="text" class="form-control bg-light" name="username" id="username"><br>
+				<label id="pw"></label>
+				<input type="password" class="form-control bg-light" name="password" id="pw"><br>
+
+				<input type="radio" id="acc" name="acc" value="Account">
+				<label for="acc"> Save this account.</label><br>
+				<a href="main.html"><button class="btn btn-light">Log In</button></a>
+				<br><br><br>
+			</form>
+		</div>
+	</div>
+</center>
+
+	<script type="text/javascript">
+		document.getElementById('login').innerHTML = "Username"
+		document.getElementById('pw').innerHTML = "Password"
+	</script>
+</body>
+</html>

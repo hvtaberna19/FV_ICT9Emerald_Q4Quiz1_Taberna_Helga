@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+	<title>Log In</title>
+</head>
+	<style>
+		body{
+			background-color: lightblue;
+			font-family: Oswald;
+		}
+		h1{
+			color: white;
+		}
+		#q2{
+			width: 800px;
+			height: 700px;
+		}
+		.navbar{
+			font-size: 20px;
+		}
+		.topnav{
+			width: 100%;
+		}
+		.search-container{
+			width: 50%;
+		}
+		.navbar ul li{
+			list-style: none;
+			display: inline-block;
+			margin: 0 20px;
+			position: relative;
+		}
+		.navbar ul li a{
+			text-decoration: none;
+			color: black;
+			text-transform: uppercase;
+		}
+		.navbar ul li::after{
+			content: '';
+			height: 3px;
+			width: 0;
+			background:lightblue;
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			transition: 0.3s;
+		}
+		.navbar ul li:hover::after{
+			width: 100%;
+		}
+
+	</style>
+
+<body>
+<center>
+
+	<!--Header-->
+	<nav class="navbar navbar-expand-sm bg-light">
+    <a class="navbar-brand" href="#"></a>
+	
+	<!-- Navigation Bar -->
+	<div class="topnav">
+  		<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+  			<li class="nav-item">
+    			<a class="nav-link" href="main.html">Home</a>
+  			</li>
+    		<li class="nav-item">
+    			<a class="nav-link" href="firstq.html">First Quarter</a>
+  			</li>
+      		<li class="nav-item">
+    			<a class="nav-link" href="secondq.html">Second Quarter</a>
+  			</li>
+      		<li class="nav-item">
+    			<a class="nav-link" href="#">Third Quarter</a>
+  			</li> 
+  			<li class="nav-item">
+    			<a class="nav-link" href="#">Fourth Quarter</a>
+  			</li> 
+		</ul>
+	</div>
+</nav>
+
+
+	<br><br>
+
+	<!-- Q2 Project -->
+	<h1>Quarter Two Project</h1><br>
+	<img src="file:///C:/Users/admin/Downloads/439645990_7960732997305369_7622042359375364905_n.png" id="q2"><br><br>
+	<img src="file:///C:/Users/admin/Downloads/439689924_761792582748746_8317158181372567226_n.png"id="q2"><br><br>
+	
+</body>
+</html>
